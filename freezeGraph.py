@@ -7,8 +7,8 @@ tf.contrib.resampler
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--checkpoint_dir', dest='checkpoint_dir', required=True)# see main.py for example of this origional parser.add_argument('--checkpoint_dir', dest='checkpoint_dir', required=True)
-parser.add_argument('--output', dest='output', required=True)#origional parser.add_argument('--output', dest='output', required=True)
+parser.add_argument('--checkpoint_dir', dest='checkpoint_dir', required=True)
+parser.add_argument('--output', dest='output', required=True)
 
 args = parser.parse_args()
 
